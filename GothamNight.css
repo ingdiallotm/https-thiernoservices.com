@@ -1,0 +1,87 @@
+body{
+   margin: 0px;
+   padding: 0px;
+   background-color: #d2e0de;
+   }
+   .header{
+      background-color: #287265;
+      height: 80px;
+      margin: 0px;
+  }
+  nav ul li{
+   list-style: none;
+   display: inline-block;
+   padding: 20px;
+   overflow: auto;
+  }
+
+  ul li a{
+   color: #fff;
+   letter-spacing: 0.1rem;
+   font-size: 18px;
+  }
+  ul li a:hover{
+   color:#ffd358;
+   text-decoration:underline;
+   font-size: 18px;
+ }
+ ul li a:active{
+   color:#4a04a7;
+   text-decoration:underline;
+   font-size: 18px;
+ }
+  .Menu li{
+   float:left;
+   padding:20px;
+   align-items: center;
+  }
+  .menu li a{
+   text-decoration: none;
+  }
+  form{
+   padding: 20px;
+   text-align: right;
+  }
+  input[type="Search"]{
+      font-size: 25px;
+  }
+  @media screen and (max-width: 1200px){
+   .conteneur{
+       flex-direction: column;
+   img{
+       display:block;
+   }
+}
+}
+@media screen and (max-width: 1200px){
+   p{
+       color:black;
+       overflow: auto;
+}
+}
+img{
+   position: absolute;
+   height: 60px;
+   width: 80px;
+   padding: 00px;
+   margin-top: 5px;
+   margin-left: 0px;
+ }
+ button, textarea, select{
+   font-size: 25px;
+   font-family: 'Times New Roman', Times, serif;
+   color: white;
+   background-color: brown;
+}
+nav a{
+   width: 100px;
+   display: block;
+   padding:0px;
+   text-decoration: none;
+   text-align: center;
+
+}
+p{
+   font-size: 20px;
+   color: rgb(13, 13, 14);
+}
